@@ -1,0 +1,23 @@
+Git command learning record
+1. git init
+# a new repository or rebuild one.
+2. git add [filename]
+	git mv
+	git reset # Redefine the Head
+	git rm
+3. git commit -m [comment]
+4. git log # view the history
+	git bisect
+	git grep
+	git show 
+	git status
+5. Change the tags
+	git branch # List/create/delete the branch
+	git checkout # switch branch or restore the files
+	git diff # Show the differences
+	git merge # Merge Two branchs
+	git tag
+6. git fetch #Download and cite from another repository.
+	git pull # Get and conform the local and the remote repository.
+	git push # Update the remote.
+	
