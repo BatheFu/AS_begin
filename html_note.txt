@@ -1,0 +1,7 @@
+Html note
+Hyper Text is a Markup Language, not a programming language.
+
+use <> </> as a syntax mark
+
+<h> title 
+<p> passage

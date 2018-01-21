@@ -1,0 +1,36 @@
+# Note of Regex
+
+正则的用处：
+1.验证字符串的合法性
+2.提取想要的字符串
+3.灵活的替换
+
+\b metacharcter: the start and end of a word/charsets
+. any chars except blanks
+\d any number
+d{} match {} times of \d
+* 0 or more times
++ 1 or more times
+\w chars or numbers or underlines
+\s blanks
+^ the start of sets
+$ the end of sets
+{start,end}: times between the two numbers
+example: ^\d{5,12}$ # Match QQ numbers
+\: Trans-symbol
+example: C:\\Windows matches for C:\Windows
+[] for particuler sets
+[0-9] == \d
+[a-z0-9A-Z] == \w
+antonym match:
+\S
+\D
+\W
+[^aeiou]
+分组引用暂略，和list的编号相似，0 代表全部
+零宽断言：
+(?=exp): 匹配exp 前面的位置
+(?<=exp): 匹配exp 后面的位置
+(?!exp): 匹配后面跟的不是exp 的位置
+(?<!exp)：匹配前面不是exp的位置
+(?#comment)：这种类型的分组不对正则
