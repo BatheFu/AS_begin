@@ -1,0 +1,17 @@
+Linux 命令行大全学习笔记
+第二章：导航
+ls:
+cd: 切换目录
+    简写：
+        .表示子目录
+        ..表示父目录
+    技巧一：
+        重新指定CDPATH：例如 export CDPATH=/etc，写入~/.bash_profile则永久生效。
+        Linux当中的冒号是用来间隔的，这个和Windows不一样。
+    技巧二：
+		使用cd 和 alias 命令快速返回上级目录。
+		为了使得..4表示返回4级目录，在~/.bashrc之中写入
+		alias ..="cd .."
+		alias ..2="cd ../.."
+		……
+pwd:
